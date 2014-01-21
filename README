@@ -1,0 +1,10 @@
+Eulers-Method
+=============
+
+Multidimensional Euler's Method
+
+The aim of this project is to solve an initial value problem for a system of differential equations.  We use only two variables so that we can graph the results.  When run, my program creates a window that asks for several inputs.  The user should enter two functions, a time step, an initial x and y, and the last time value.  Upon clicking calculate, my program generates several points based on Euler’s method and graphs them.
+
+I used Java for the project, along with the exp4j package, which is in my Java package.  My project is comprised of three java files; I have a driver that creates a window and initializes my other class, a panel that asks for input and performs calculations, and a panel for graphing my solution.  The graphing panel graphs three different lines in three different colors.  The first line is in blue with the “h” step value the user inputted, the second line is in green with the “h” multiplied by 0.1, and the third line is in magenta with the initial “h” multiplied by 0.01.  Furthermore, I made the graph window 500 by 500 pixels (which can be changed by changing the constant SIZE instance variable), scaling the window so that it is easier to see the graph.
+
+Note that the user must be careful in entering the equations.  I.e. use x * y instead of xy
